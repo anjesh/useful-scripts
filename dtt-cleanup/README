@@ -1,0 +1,11 @@
+Cleans up dirty csv files and need just the following field values. However the file that we get from the team members are not up to format. When csv file is being opened in open office to edit, the latter adds so many commas and distorts the format. The following gawk script reads the distorted csv file and cleans up as per need. 
+
+Date, hours, name, project, category, remarks
+
+This script is specific to the format that i need, however it gives good idea of how to achieve the csv cleanup in gawk. 
+
+usage:
+gawk -f dtt-clean.awk sample.csv
+    will generate the cleaned up csv in screen
+gawk 0f dtt-clean.awk sample.csv > cleansample.csv
+    will create a new file with clean csv as per format
