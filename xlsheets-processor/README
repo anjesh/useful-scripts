@@ -1,0 +1,2 @@
+Reads the multiple sheets xls file and combines the data into one sheet, following the format of required sheet. The example sheet is given in ./tests folder. The original file has 50 sheets and i had to develop this small script. Took me few hours to find out and felt that others could benefit from this in similar situations. Code is small and self-explanatory. Happy to help if you come across confusions. 
+
